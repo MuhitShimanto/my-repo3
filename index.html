@@ -63,7 +63,7 @@
           <div
             class="copy-count-container h-[52px] flex justify-center items-center gap-[10px] py-[12px] px-[24px] bg-[#00A63E] text-white rounded-3xl"
           >
-            <span id="coin-count" class="inter-semibold text-base">0</span>
+            <span id="copy-count" class="inter-semibold text-base">0</span>
             <p class="inter-semibold text-base">Copy</p>
           </div>
         </div>
@@ -88,7 +88,7 @@
 
     <main class="max-w-[1800px] mt-12 m-auto grid grid-cols-1 gap-[30px] lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4">
       <div class="col-span-1 grid grid-cols-1 order-1 xl:col-span-2 2xl:col-span-3">
-        <div class="card-container m-auto grid grid-cols-1 gap-[30px] xl:grid-cols-2 2xl:grid-cols-3">
+        <div id="card-container" class="m-auto grid grid-cols-1 gap-[30px] xl:grid-cols-2 2xl:grid-cols-3">
           <div class="card bg-base-100 w-[380px] p-[32px] shadow-sm sm:w-[436px]">
             <div class="flex justify-between items-center">
               <figure>
@@ -448,18 +448,8 @@
             Clear
           </button>
         </div>
-        <div class="history-card-container mt-[16px] flex flex-col gap-[8px]">
-          <div class="flex justify-between bg-[#FAFAFA] p-[16px] rounded-xl">
-            <div>
-              <div class="inter-semibold text-[18px] max-w-[215px]">
-                Fire Service Number
-              </div>
-              <div class="hind-madurai-regular text-[18px] text-[#5C5C5C]">
-                999
-              </div>
-            </div>
-            <div class="hind-madurai-regular text-[18px]">11:36:58 AM</div>
-          </div>
+        <div id="history-card-container" class="mt-[16px] flex flex-col gap-[8px]">
+          
         </div>
       </div>
     </main>
