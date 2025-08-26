@@ -29,9 +29,9 @@
     <link rel="shortcut icon" href="./assets/logo.png" type="image/x-icon">
     <title>Emergency Services</title>
   </head>
-  <body class="bg-[#F5FFF6] pb-[86px]">
+  <body class="bg-[#F5FFF6] pb-21">
     <header class="w-full m-auto bg-white">
-      <nav class="max-w-[1920px] m-auto flex justify-between px-16 py-6">
+      <nav class="max-w-[1920px] m-auto flex flex-col justify-between gap-[20px] px-16 py-12 sm:flex-row sm:py-6">
         <div class="nav-left flex justify-center items-center">
           <img src="./assets/logo.png" alt="Logo" class="h-[50px] w-[50px]" />
           <div class="inter-black text-[#006747] ml-[10px]">
@@ -39,7 +39,7 @@
             <p>Service</p>
           </div>
         </div>
-        <div class="nav-right flex gap-[20px]">
+        <div class="nav-right flex flex-col gap-[20px] sm:flex-row">
           <div
             class="heart-count-container h-[52px] flex justify-center items-center gap-[10px] py-[12px] px-[24px] bg-[#41FF6B]/[10%] rounded-3xl"
           >
@@ -63,20 +63,20 @@
           <div
             class="copy-count-container h-[52px] flex justify-center items-center gap-[10px] py-[12px] px-[24px] bg-[#00A63E] text-white rounded-3xl"
           >
-            <span id="coin-count" class="inter-semibold text-base">2</span>
+            <span id="coin-count" class="inter-semibold text-base">0</span>
             <p class="inter-semibold text-base">Copy</p>
           </div>
         </div>
       </nav>
       <div
-        class="hero-section h-[239px] bg-gradient-to-r from-[#013223] via-[#006747] to-[#013223] flex flex-col justify-center items-center"
+        class="hero-section h-[400px] bg-gradient-to-r from-[#013223] via-[#006747] to-[#013223] flex flex-col justify-center items-center sm:h-[239px]"
       >
         <img
           src="./assets/logo-dark.png"
           alt="Logo"
           class="w-[92px] h-[92px]"
         />
-        <h2 class="hind-madurai-bold text-[40px] text-white">
+        <h2 class="hind-madurai-bold text-[40px] text-white text-center">
           Emergency Service Directory
         </h2>
         <p class="hind-madurai-semibold text-[20px] text-white text-center">
@@ -86,10 +86,10 @@
       </div>
     </header>
 
-    <main class="max-w-[1800px] mt-[48px] m-auto grid grid-cols-4 gap-[30px]">
-      <div class="col-span-3 grid">
-        <div class="card-container grid grid-cols-3 gap-[30px]">
-          <div class="card bg-base-100 w-[436px] p-[32px] shadow-sm">
+    <main class="max-w-[1800px] mt-12 m-auto grid grid-cols-1 gap-[30px] lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4">
+      <div class="col-span-1 grid grid-cols-1 order-1 xl:col-span-2 2xl:col-span-3">
+        <div class="card-container m-auto grid grid-cols-1 gap-[30px] xl:grid-cols-2 2xl:grid-cols-3">
+          <div class="card bg-base-100 w-[380px] p-[32px] shadow-sm sm:w-[436px]">
             <div class="flex justify-between items-center">
               <figure>
                 <img
@@ -128,7 +128,7 @@
               </div>
             </div>
           </div>
-          <div class="card bg-base-100 w-[436px] p-[32px] shadow-sm">
+          <div class="card bg-base-100 w-[380px] p-[32px] shadow-sm sm:w-[436px]">
             <div class="flex justify-between items-center">
               <figure>
                 <img
@@ -165,7 +165,7 @@
               </div>
             </div>
           </div>
-          <div class="card bg-base-100 w-[436px] p-[32px] shadow-sm">
+          <div class="card bg-base-100 w-[380px] p-[32px] shadow-sm sm:w-[436px]">
             <div class="flex justify-between items-center">
               <figure>
                 <img
@@ -204,7 +204,7 @@
               </div>
             </div>
           </div>
-          <div class="card bg-base-100 w-[436px] p-[32px] shadow-sm">
+          <div class="card bg-base-100 w-[380px] p-[32px] shadow-sm sm:w-[436px]">
             <div class="flex justify-between items-center">
               <figure>
                 <img
@@ -241,7 +241,7 @@
               </div>
             </div>
           </div>
-          <div class="card bg-base-100 w-[436px] p-[32px] shadow-sm">
+          <div class="card bg-base-100 w-[380px] p-[32px] shadow-sm sm:w-[436px]">
             <div class="flex justify-between items-center">
               <figure>
                 <img
@@ -280,7 +280,7 @@
               </div>
             </div>
           </div>
-          <div class="card bg-base-100 w-[436px] p-[32px] shadow-sm">
+          <div class="card bg-base-100 w-[380px] p-[32px] shadow-sm sm:w-[436px]">
             <div class="flex justify-between items-center">
               <figure>
                 <img
@@ -319,7 +319,7 @@
               </div>
             </div>
           </div>
-          <div class="card bg-base-100 w-[436px] p-[32px] shadow-sm">
+          <div class="card bg-base-100 w-[380px] p-[32px] shadow-sm sm:w-[436px]">
             <div class="flex justify-between items-center">
               <figure>
                 <img
@@ -360,7 +360,7 @@
               </div>
             </div>
           </div>
-          <div class="card bg-base-100 w-[436px] p-[32px] shadow-sm">
+          <div class="card bg-base-100 w-[380px] p-[32px] shadow-sm sm:w-[436px]">
             <div class="flex justify-between items-center">
               <figure>
                 <img
@@ -395,7 +395,7 @@
               </div>
             </div>
           </div>
-          <div class="card bg-base-100 w-[436px] p-[32px] shadow-sm">
+          <div class="card bg-base-100 w-[380px] p-[32px] shadow-sm sm:w-[436px]">
             <div class="flex justify-between items-center">
               <figure>
                 <img
@@ -436,7 +436,7 @@
           </div>
         </div>
       </div>
-      <div class="history col-span-1 p-[24px] bg-white shadow-sm">
+      <div class="history m-auto order-0 w-[380px] col-span-1 p-[32px] bg-white shadow-sm sm:w-[432px] lg:order-2 lg:m-0">
         <div class="flex justify-between items-center">
           <div class="flex justify-center items-center gap-[8px]">
             <i class="fa-regular fa-clock text-[24px]"></i>
